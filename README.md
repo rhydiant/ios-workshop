@@ -1,3 +1,3 @@
 # ios-workshope
 
-A collection of playground's used to show Swift language features.
+A collection of Playground's used to showcase Swift language features.
