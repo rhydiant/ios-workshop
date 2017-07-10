@@ -5,7 +5,32 @@
  * callout(extension syntax):
  using `extension SomeType`, add computed properties, methods, initializers, subscripts, nested types.
  */
+// adding methods
 
+import Foundation
+
+extension String {
+  func snakecased() {
+    self.lowercased().replacingOccurrences(of: " ", with: "_")
+  }
+}
+
+"Some random string".snakecased()
+
+
+// adding (computed) properties
+
+import UIKit
+
+//UIColor.red
+
+extension UIColor {
+  static var diusPrimaryColor: UIColor {
+    return UIColor(red: 0.4, green: 0.5, blue: 0.9, alpha: 1)
+  }
+}
+
+UIColor.diusPrimaryColor
 
 //: Up next ...
 //: ***
