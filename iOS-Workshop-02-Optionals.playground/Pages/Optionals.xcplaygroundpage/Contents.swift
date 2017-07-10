@@ -4,6 +4,19 @@
  * callout(using optionals):
   using `SomeType?`, force unwrap, implicitly unwrapped, optional binding and the nil-coalescing operator (`a = b ?? c`)
  */
+// declare an optional type
+
+
+// unwrap an optional with '!' (if you know it has a value)
+
+
+// optional binding to find out whether an optional contains a value
+
+
+// nil-coalescing (shorthand)
+
+
+// implicitly unwrapped optionals
 
 
 /*:

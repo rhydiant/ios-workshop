@@ -4,6 +4,13 @@
  * callout(define a protocol):
  with instance properties, instance methods and type methods, subscripts, operators and initializers
  */
+// property requirements
+
+
+// instance method requirementa
+
+
+// initializer requirement
 
 
 /*:

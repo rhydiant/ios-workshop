@@ -3,12 +3,32 @@
  * callout(properties):
  stored instance and type properties, lazy stored, computed properties, property observers using `willSet` and `didSet`
  */
+struct Magazine {
+
+  // stores (type) property
+  
+  // stored (instance) property
+  
+  // lazy stored property
+  
+  // computed propery
+  
+}
 
 
 /*:
  * callout(methods):
  instance methods, type methods using `static` and `class`
  */
+class Player {
+
+  // instance method
+  
+  // type method (you cant override)
+  
+  // type methods (you can override)
+  
+}
 
 
 /*:
